@@ -1,0 +1,27 @@
+# GEPA real do haicai-v1 — professor Gemini, rollouts longcat via Hermes.
+# Smoke provado em outputs/haicai-v1--meituan--longcat-2.0:free--null--031e204b
+# (iter 1 aceito com minibatch perfeito [1.0, 1.0, 1.0]; A/B em temas inéditos:
+#  exata_575 0.25 -> 0.42, forma 0.67 -> 0.72, n=12).
+model = "meituan/longcat-2.0:free"
+reflection_model = "gemini-3.5-flash"
+
+num_train = 60
+num_val = 30
+max_total_rollouts = 300
+reflection_minibatch_size = 3
+max_concurrent = 32
+
+[env.taskset]
+id = "haicai-v1"
+num_tasks = 90
+
+[sampling]
+max_tokens = 1000
+
+# Execução:
+#   export HAICAI_JUDGE_KEY=x
+#   .venv/bin/gepa @ configs/gepa/haicai.toml \
+#     --client.base-url http://127.0.0.1:8645/v1 --client.api-key-var HAICAI_JUDGE_KEY \
+#     --reflection-client.base-url https://generativelanguage.googleapis.com/v1beta/openai \
+#     --reflection-client.api-key-var GEMINI_API_KEY \
+#     --env.agent.harness.id null --env.agent.runtime.type subprocess

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: haicai
+Version: 0.1.0
+Summary: Escansão de haicai em português: sílabas poéticas por intervalo de hipóteses
+Requires-Python: >=3.10
+Requires-Dist: silabificador @ git+https://github.com/TigreGotico/silabificador
+Requires-Dist: verifiers>=0.1.14
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

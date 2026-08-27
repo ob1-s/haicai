@@ -1,0 +1,12 @@
+pyproject.toml
+src/haicai/__init__.py
+src/haicai/__main__.py
+src/haicai/escansao.py
+src/haicai/ortografia.py
+src/haicai.egg-info/PKG-INFO
+src/haicai.egg-info/SOURCES.txt
+src/haicai.egg-info/dependency_links.txt
+src/haicai.egg-info/requires.txt
+src/haicai.egg-info/top_level.txt
+tests/test_escansao.py
+tests/test_ortografia.py

@@ -1,0 +1,5 @@
+silabificador @ git+https://github.com/TigreGotico/silabificador
+verifiers>=0.1.14
+
+[dev]
+pytest

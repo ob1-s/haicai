@@ -1,0 +1,29 @@
+# Eval real do haicai-v1 (run de verdade, não smoke).
+# Modelo de rollouts: qualquer endpoint livre; judge determinístico no env.
+model = "meituan/longcat-2.0:free"
+num_tasks = 50
+rollouts_per_example = 4
+shuffle = true
+push = false
+
+[client]
+base_url = "http://127.0.0.1:8645/v1"
+api_key_var = "HAICAI_JUDGE_KEY"
+
+[sampling]
+max_tokens = 1000
+temperature = 1.0
+
+[env.taskset]
+id = "haicai-v1"
+# offset 100 = temas fora da janela de treino do GEPA
+
+[env.agent.harness]
+id = "null"
+
+[env.agent.runtime]
+type = "subprocess"
+
+# Para avaliar o prompt otimizado pelo GEPA, descomente:
+# [env.taskset.system_prompt_override]
+# system_prompt = "outputs/<run>/best_system_prompt.txt"

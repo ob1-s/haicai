@@ -1,0 +1,23 @@
+# Smoke de Hosted RL: haicai + poolside/Laguna-XS-2.1 (grátis).
+# Run de verdade depois: max_steps = 120, batch_size = 128.
+model = "poolside/Laguna-XS-2.1"
+
+max_steps = 10
+batch_size = 32
+rollouts_per_example = 8
+
+[sampling]
+max_tokens = 512
+temperature = 1.0
+
+[[env]]
+id = "ob1/haicai"
+
+[eval]
+interval = 5
+num_examples = 16
+rollouts_per_example = 1
+eval_base_model = true
+
+[[eval.env]]
+id = "ob1/haicai"

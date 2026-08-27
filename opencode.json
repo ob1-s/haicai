@@ -1,0 +1,18 @@
+{
+  "mcp": {
+    "prime_lab": {
+      "type": "local",
+      "command": [
+        "/home/ob1/.local/share/uv/tools/prime/bin/python3",
+        "-c",
+        "from prime_cli.main import run; run()",
+        "lab",
+        "mcp",
+        "--workspace",
+        "/home/ob1/Projects/haicai"
+      ],
+      "enabled": true,
+      "timeout": 60000
+    }
+  }
+}

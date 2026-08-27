@@ -1,0 +1,22 @@
+{
+  "nota": "Versos com contagem de referência EXTERNA (especialistas). Cada item cita a fonte.",
+  "itens": [
+    {"verso": "A Fé, o Império, e as terras viciosas", "ouro": 10, "fonte": "Ciberdúvidas (ISCTE-IUL), escansão de Os Lusíadas, canto I, est. 2", "url": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-escansao-de-versos-dos-lusiadas/31591", "nota_fonte": "sinalefas: o Im|pé rio, e as"},
+    {"verso": "Vê-o também no meio do Hemisfério", "ouro": 10, "fonte": "Ciberdúvidas (ISCTE-IUL), idem", "url": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-escansao-de-versos-dos-lusiadas/31591", "nota_fonte": "Vê|o fundem; do He|mis|fé(rio) — esdrúxula, 2 postônicas caem"},
+    {"verso": "De quantas graças tinha, a Natureza", "ouro": 10, "fonte": "Ciberdúvidas via Amorim de Carvalho, Tratado de Versificação Portuguesa", "url": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/silabas-metricas-sinalefa-e-virgula/35840", "nota_fonte": "sinalefa nha|a apesar da vírgula"},
+    {"verso": "E cava, em belas frontes, paralelas", "ouro": 10, "fonte": "Ciberdúvidas (ISCTE-IUL)", "url": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/silabas-metricas-sinalefa-e-virgula/35840", "nota_fonte": "va|em fundem apesar da vírgula"},
+    {"verso": "Ou a aia ia ou ia eu aí", "ouro": 12, "fonte": "Ciberdúvidas (ISCTE-IUL)", "url": "https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/crase-e-sinalefa/37456", "nota_fonte": "verso vogálico: sinalefa u|a na 2ª métrica"},
+    {"verso": "As armas e os barões assinalados", "ouro": 10, "fonte": "canon Os Lusíadas; escansão em Estratégia/preparaENEM", "url": "https://vestibulares.estrategia.com/portal/materias/literatura/escansao/", "nota_fonte": "mas e os: sinalefas clássicas"},
+    {"verso": "Que da ocidental praia Lusitana", "ouro": 10, "fonte": "canon Os Lusíadas; idem", "url": "https://vestibulares.estrategia.com/portal/materias/literatura/escansao/"},
+    {"verso": "Por mares nunca de antes navegados", "ouro": 10, "fonte": "canon Os Lusíadas; idem", "url": "https://vestibulares.estrategia.com/portal/materias/literatura/escansao/"},
+    {"verso": "A menina dos olhos de safira", "ouro": 10, "fonte": "Recanto das Letras, tratado de escansão", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693"},
+    {"verso": "O poema tem a cor do coração", "ouro": 10, "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "sinérese po|e (poe-ma)"},
+    {"verso": "Viver e amar a vida e a fantasia", "ouro": 10, "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "sinalefas e|a, a|vi, da e|a"},
+    {"verso": "Lindo amanhecer de primavera", "ouro": 10, "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "dialefa do|a (hiato mantido)"},
+    {"verso": "No jardim colorido de rosas multicores", "ouro": 12, "status": "fora_do_escopo", "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "requer cesura épica (queda de pós-tônica na hemistichia) — técnica espanhola, rara em português; motor não modela hemistíquios. Exemplo construído pelo próprio tratado."},
+    {"verso": "Sua vida é alegre", "ouro": [5, 6], "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "dupla leitura aceita (sinalefa forçada ou não) — teste de intervalo"},
+    {"verso": "Já a tarde se vai", "ouro": 5, "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "elisão forçada Já|a"},
+    {"verso": "Eu sorri e via a vida", "ouro": 5, "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "duas sinalefas forçadas ri|e, vi|a"},
+    {"verso": "E viveram em paz", "ouro": 5, "fonte": "Recanto das Letras, idem", "url": "https://www.recantodasletras.com.br/teorialiteraria/5716693", "nota_fonte": "sinalefa extrema ram|em"}
+  ]
+}

@@ -1,0 +1,114 @@
+[
+ {
+  "verso": "ave azul",
+  "fenomeno": "sinalefa vogais diferentes"
+ },
+ {
+  "verso": "na hora",
+  "fenomeno": "sinalefa + h silencioso"
+ },
+ {
+  "verso": "Fecho a minha porta.",
+  "fenomeno": "sinalefa em verso real (VELHICE v3)"
+ },
+ {
+  "verso": "de amor",
+  "fenomeno": "sinalefa vogais idênticas"
+ },
+ {
+  "verso": "vida e arte",
+  "fenomeno": "sinalefa idênticas + e átono"
+ },
+ {
+  "verso": "café aberto",
+  "fenomeno": "sinalefa com TÔNICA à esquerda — defensável?"
+ },
+ {
+  "verso": "sinfonia",
+  "fenomeno": "sinérese tônica alta (ni|a)"
+ },
+ {
+  "verso": "área",
+  "fenomeno": "sinérese átona (re|a)"
+ },
+ {
+  "verso": "saúde",
+  "fenomeno": "sinérese tônica alta (sa|ú)"
+ },
+ {
+  "verso": "poema",
+  "fenomeno": "sinérese po|e — defensável?"
+ },
+ {
+  "verso": "areia",
+  "fenomeno": "glide [i]: a-reia (2 syl)?"
+ },
+ {
+  "verso": "jóia",
+  "fenomeno": "glide [i]: jóia (1 syl)?"
+ },
+ {
+  "verso": "meio",
+  "fenomeno": "glide [i]: meio (1 syl)? — CASO DRUMMOND"
+ },
+ {
+  "verso": "ideia",
+  "fenomeno": "glide [i]: i-deia (2 syl)?"
+ },
+ {
+  "verso": "história",
+  "fenomeno": "glide [i]: his-tó-ria (3 syl)?"
+ },
+ {
+  "verso": "No meio do caminho",
+  "fenomeno": "verso livre: 5 ou 6?"
+ },
+ {
+  "verso": "coração",
+  "fenomeno": "nasal: ção pode romper? (esperado: não)"
+ },
+ {
+  "verso": "mão aberta",
+  "fenomeno": "nasal: mão|a funde?"
+ },
+ {
+  "verso": "traição",
+  "fenomeno": "diérese: tra-i-ção?"
+ },
+ {
+  "verso": "herói",
+  "fenomeno": "diérese em oxítona: he-ro-í? (esperado: não)"
+ },
+ {
+  "verso": "saudade",
+  "fenomeno": "diérese: sa-ú-da-de? (marcado?)"
+ },
+ {
+  "verso": "flor de",
+  "fenomeno": "átona final não conta"
+ },
+ {
+  "verso": "o vento da tarde",
+  "fenomeno": "pentassílabo limpo"
+ },
+ {
+  "verso": "fá-lo-ias",
+  "fenomeno": "mesóclise: tônica em FÁ"
+ },
+ {
+  "verso": "amar-te-ia",
+  "fenomeno": "mesóclise sem acento: tônica em MAR"
+ },
+ {
+  "verso": "o éreo, há um vago mistério.",
+  "fenomeno": "GAROA v2: quantas sílabas ouves?"
+ },
+ {
+  "verso": "Por um mundo quase o éreo,",
+  "fenomeno": "GAROA variante: enjambment quase|o?"
+ },
+ {
+  "verso": "Passa o Anjo de Gaze.",
+  "fenomeno": "GAROA v3: passa|o funde?"
+ }
+]

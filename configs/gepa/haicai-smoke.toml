@@ -1,0 +1,17 @@
+# GEPA smoke do haicai-v1 — endpoints livres via proxy Hermes.
+# Run de verdade depois: num-train 60, num-val 30, max-total-rollouts 300.
+model = "meituan/longcat-2.0:free"
+reflection_model = "stealth/ox-alpha"
+
+num_train = 6
+num_val = 4
+max_total_rollouts = 24
+reflection_minibatch_size = 3
+max_concurrent = 8
+
+[env.taskset]
+id = "haicai-v1"
+num_tasks = 10
+
+[sampling]
+max_tokens = 1000

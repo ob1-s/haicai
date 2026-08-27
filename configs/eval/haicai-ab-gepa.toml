@@ -1,0 +1,23 @@
+# A/B: prompt semente vs prompt otimizado pelo GEPA, temas inéditos.
+model = "meituan/longcat-2.0:free"
+num_tasks = 12
+shuffle = true
+push = false
+
+[client]
+base_url = "http://127.0.0.1:8645/v1"
+api_key_var = "HAICAI_JUDGE_KEY"
+
+[sampling]
+max_tokens = 1000
+
+[env.taskset]
+id = "haicai-v1"
+offset = 100
+system_prompt = "outputs/haicai-v1--meituan--longcat-2.0:free--null--031e204b/best_system_prompt.txt"
+
+[env.agent.harness]
+id = "null"
+
+[env.agent.runtime]
+type = "subprocess"
