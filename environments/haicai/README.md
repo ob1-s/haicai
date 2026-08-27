@@ -1,53 +1,7 @@
-# haicai
+# haicai (v0) — DEPRECATED
 
-> Replace the placeholders below, then remove this callout.
+> This package is the legacy `v0` loader (`load_environment` → `SingleTurnEnv`) that Ox built overnight because the skill text claimed Hosted Training only supported `v0`. The live docs at `docs.primeintellect.ai/hosted-training/advanced-configs` confirm Hosted Training accepts both shapes — `v1` is now canonical.
 
-### Overview
-- **Environment ID**: `haicai`
-- **Short description**: <one-sentence description>
-- **Tags**: <comma-separated tags>
+**Use `environments/haicai_v1` (`ob1/haicai-v1`) instead.** It has the same vendored engine (`silabificador` MIT + `escansao` + `orto` + 40k vocab) and identical rewards (`forma 0.5 / ortografia 0.5`), but as a typed `vf.Taskset` that works for `uv run eval`, `uv run gepa`, and Hosted Training via `taskset = { id = "ob1/haicai-v1" }`.
 
-### Datasets
-- **Primary dataset(s)**: <name(s) and brief description>
-- **Source links**: <links>
-- **Split sizes**: <train/eval counts>
-
-### Task
-- **Type**: <single-turn | multi-turn | tool use>
-- **Output format expectations (optional)**: <e.g., plain text, XML tags, JSON schema>
-- **Rubric overview**: <briefly list reward functions and key metrics>
-
-### Quickstart
-Run an evaluation with default settings:
-
-```bash
-prime eval run haicai
-```
-
-Configure model and sampling:
-
-```bash
-prime eval run haicai   -m openai/gpt-4.1-mini   -n 20 -r 3 -t 1024 -T 0.7
-```
-
-Notes:
-- Put task-owned settings under `[env.taskset]` and harness-owned settings under `[env.harness]` in TOML configs.
-
-### Taskset Config
-Document any taskset config fields and their meaning. Example:
-
-| Field | Type | Default | Description |
-| --- | ---- | ------- | ----------- |
-| `max_examples` | int | `-1` | Limit on dataset size (use -1 for all) |
-
-### Harness Config
-Document any harness config fields and their meaning.
-
-### Metrics
-Summarize key metrics your rubric emits and how they’re interpreted.
-
-| Metric | Meaning |
-| ------ | ------- |
-| `reward` | Main scalar reward (weighted sum of criteria) |
-| `accuracy` | Exact match on target answer |
-
+Kept for reference until `ob1/haicai` hub runs finish. Do not extend — fork `haicai_v1`.

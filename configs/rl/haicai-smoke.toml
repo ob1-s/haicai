@@ -1,5 +1,6 @@
-# Smoke de Hosted RL: haicai + poolside/Laguna-XS-2.1 (grátis).
+# Hosted RL: haicai-v1 + poolside/Laguna-XS-2.1 (grátis) — shape v1 nativo.
 # Run de verdade depois: max_steps = 120, batch_size = 128.
+# Smoke validado localmente: .venv/bin/eval haicai-v1 ... --env.agent.harness.id null
 model = "poolside/Laguna-XS-2.1"
 
 max_steps = 10
@@ -11,7 +12,8 @@ max_tokens = 512
 temperature = 1.0
 
 [[env]]
-id = "ob1/haicai"
+taskset = { id = "ob1/haicai-v1" }
+harness = { id = "null", runtime = { type = "subprocess" } }
 
 [eval]
 interval = 5
@@ -20,4 +22,5 @@ rollouts_per_example = 1
 eval_base_model = true
 
 [[eval.env]]
-id = "ob1/haicai"
+taskset = { id = "ob1/haicai-v1" }
+harness = { id = "null", runtime = { type = "subprocess" } }
