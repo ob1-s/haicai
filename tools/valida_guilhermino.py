@@ -6,8 +6,8 @@ Uso: .venv/bin/python tools/valida_guilhermino.py
 from itertools import product
 import unicodedata
 
+from escansao import _aplica, _juncoes, _limpa, _silabas
 from haicai import escandir, forma_ok
-from haicai.escansao import _aplica, _juncoes, _limpa, _silabas
 
 CORPUS = {
     "VELHICE":   ["Uma folha morta.", "Um galho no céu grisalho.", "Fecho a minha porta."],

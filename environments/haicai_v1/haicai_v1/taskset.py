@@ -11,8 +11,9 @@ O system_prompt é campo configurável para o GEPA otimizar.
 """
 import verifiers.v1 as vf
 
-from haicai.escansao import escandir
-from haicai.orto import coverage
+from escansao import escandir
+
+from .orto import coverage
 
 TEMAS = """
 mar lua chuva cão gato rua café saudade noite manhã vento

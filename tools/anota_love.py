@@ -13,8 +13,7 @@ import random
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 
-from haicai import ortografia
-from haicai.escansao import escandir, forma_ok
+from haicai import escandir, forma_ok, ortografia
 
 RAIZ = Path(__file__).resolve().parent.parent
 FONTE = RAIZ / "data" / "geracao_bruta.jsonl"
