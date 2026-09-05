@@ -1,10 +1,10 @@
 [project]
 name = "haicai-v1"
-version = "0.1.1"
+version = "0.1.2"
 description = "haicai-v1 — escrever haicai 5-7-5 em português brasileiro; escansão por intervalos + ortografia AO90."
 tags = ["creative-writing", "portuguese", "single-turn", "deterministic"]
 requires-python = ">=3.11"
-dependencies = ["verifiers"]
+dependencies = ["verifiers", "haicai>=0.1.0"]
 
 [build-system]
 requires = ["hatchling"]

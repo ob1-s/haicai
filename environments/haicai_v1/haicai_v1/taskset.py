@@ -11,8 +11,8 @@ O system_prompt é campo configurável para o GEPA otimizar.
 """
 import verifiers.v1 as vf
 
-from ._vendor import escansao as esc
-from ._vendor import orto
+from haicai.escansao import escandir
+from haicai.orto import coverage
 
 TEMAS = """
 mar lua chuva cão gato rua café saudade noite manhã vento
@@ -53,7 +53,7 @@ class HaicaiTask(vf.Task[HaicaiData]):
         if len(versos) != 3:
             return 0.0
         alvos = (5, 7, 5)
-        resultados = [esc.escandir(v) for v in versos]
+        resultados = [escandir(v) for v in versos]
         return sum(
             alvo in range(r.minimo, r.maximo + 1)
             for alvo, r in zip(alvos, resultados)
@@ -61,7 +61,7 @@ class HaicaiTask(vf.Task[HaicaiData]):
 
     @vf.reward(weight=0.5)
     async def ortografia(self, trace: vf.Trace) -> float:
-        return orto.coverage(trace.last_reply or "")
+        return coverage(trace.last_reply or "")
 
     @vf.metric
     async def exata_575(self, trace: vf.Trace) -> float:
@@ -69,7 +69,7 @@ class HaicaiTask(vf.Task[HaicaiData]):
         if len(versos) != 3:
             return 0.0
         alvos = (5, 7, 5)
-        resultados = [esc.escandir(v) for v in versos]
+        resultados = [escandir(v) for v in versos]
         return float(
             all(
                 alvo in range(r.minimo, r.maximo + 1)
